@@ -5,12 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="25dp"
     tools:context=".MainActivity">
 
     <!--title-top-->
     <TextView
         android:layout_width="match_parent"
         android:gravity="center"
+        android:padding="20dp"
         android:text="Albi Mudakar Nasyabi"
         android:textColor="@color/black"
         android:layout_height="wrap_content"/>
@@ -31,7 +33,8 @@
         android:id="@+id/txtCount"
         android:layout_width="match_parent"
         android:text="0"
-        android:background="@color/yellow"
+        android:textColor="@color/white"
+        android:background="@color/darkblue"
         android:textSize="250dp"
         android:textStyle="bold"
         android:gravity="center"
