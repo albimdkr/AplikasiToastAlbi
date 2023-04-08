@@ -8,46 +8,78 @@
     android:padding="25dp"
     tools:context=".MainActivity">
 
-    <!--title-top-->
-    <TextView
+    <!--  Scrolllview  -->
+    <ScrollView
         android:layout_width="match_parent"
-        android:gravity="center"
-        android:padding="20dp"
-        android:text="Albi Mudakar Nasyabi"
-        android:textColor="@color/black"
-        android:layout_height="wrap_content"/>
-    <!--end-title-top-->
+        android:layout_height="wrap_content">
 
-    <!--btnToast-->
-    <Button
-        android:id="@+id/btnToast"
-        android:onClick="btnToastClick"
-        android:layout_width="match_parent"
-        android:text="TOAST"
-        android:textSize="25dp"
-        android:layout_height="wrap_content"/>
-    <!--End-btnToast-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
-    <!--txtView0-->
-    <TextView
-        android:id="@+id/txtCount"
-        android:layout_width="match_parent"
-        android:text="0"
-        android:textColor="@color/white"
-        android:background="@color/darkblue"
-        android:textSize="250dp"
-        android:textStyle="bold"
-        android:gravity="center"
-        android:layout_height="wrap_content"/>
-    <!--End-txtView0-->
+                    <!--title-top-->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:padding="20dp"
+                        android:text="\n  Albi Mudakar Nasyabi\n NIM:21552011235\n"
+                        android:textColor="@color/black"
+                        android:layout_height="wrap_content"/>
+                    <!--end-title-top-->
 
-    <!--btnCount-->
-    <Button
-        android:id="@+id/btnCount"
-        android:onClick="btnCountClick"
-        android:layout_width="match_parent"
-        android:text="COUNT"
-        android:textSize="25dp"
-        android:layout_height="wrap_content"/>
-    <!--End-btnCount-->
-</LinearLayout>
+                    <!--btnToast-->
+                    <Button
+                        android:id="@+id/btnToast"
+                        android:onClick="btnToastClick"
+                        android:layout_width="match_parent"
+                        android:text="TOAST"
+                        android:textSize="25dp"
+                        android:layout_height="wrap_content"/>
+                    <!--End-btnToast-->
+
+                    <!--txtView0-->
+                    <TextView
+                        android:id="@+id/txtCount"
+                        android:layout_width="match_parent"
+                        android:text="0"
+                        android:textColor="@color/white"
+                        android:background="@color/darkblue"
+                        android:textSize="250dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_height="wrap_content"/>
+                    <!--End-txtView0-->
+
+                    <!--btnCount-->
+                    <Button
+                        android:id="@+id/btnCount"
+                        android:onClick="btnCountClick"
+                        android:layout_width="match_parent"
+                        android:text="COUNT"
+                        android:textSize="25dp"
+                        android:layout_height="wrap_content"/>
+                    <!--End-btnCount-->
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:autoLink="web"
+                        android:background="@color/darkblue"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/link"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:text="\n\n Dalam tugas ini saya membuat sebuah project, project tersebut adalah Aplikasi Toast dan ScrollView, kedua feature ini didaptkan oleh saya ketika saya menginjak semester 4 dalam mata kuliah Pemorograman Mobile. Pemrograman Mobile code editor IDE ya yang dipakai adalah Android Studio. Dengan adanya tugas ini, saya dipastikan harus bisa membuatnya dan menerapkannya. Dalam pengumpulannya, saya buatkan repository didalam sebuah platform yang bernama github.com. Hal tersebut dapat memudahkan para programmer dengan menggunakan tecnology Version Control Sytem. Ketika saya mebereskan beberapa code, maka saya akan melakukan push menuju repository sebelum melakukan push saya inisialisasi kan terlebih dahulu folder project tugas yang akan di upload nya, setelah itu baru beri perintah tambahkan atau add, lalu setelah itu jangan lupa atur url remote nya, lalu atur branch nya disini saya mengambil branch master, lalu setelah itu kemudian berikan commit agar dapat diketahui perkembangan program nya, setelah semua proses di lakukan terakhir lakukan push agar code tersebut dapat terupload kedalam repository."
+                    android:justificationMode="inter_word"/>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>

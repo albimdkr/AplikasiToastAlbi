@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">AplikasiToastAlbi</string>
+    <string name="app_name">Aplikasi Toast Albi</string>
+    <string name="tulisan">Jangan Lupa Kunjugi Repository Saya</string>
+    <string name="link">www.github.com/albimdkr/AplikasiToastAlbi</string>
 </resources>
