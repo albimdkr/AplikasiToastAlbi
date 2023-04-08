@@ -7,20 +7,26 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <!--title-top-->
     <TextView
         android:layout_width="match_parent"
         android:gravity="center"
         android:text="Albi Mudakar Nasyabi"
         android:textColor="@color/black"
         android:layout_height="wrap_content"/>
+    <!--end-title-top-->
 
+    <!--btnToast-->
     <Button
         android:id="@+id/btnToast"
+        android:onClick="btnToastClick"
         android:layout_width="match_parent"
         android:text="TOAST"
         android:textSize="25dp"
         android:layout_height="wrap_content"/>
-    
+    <!--End-btnToast-->
+
+    <!--txtView0-->
     <TextView
         android:id="@+id/txtCount"
         android:layout_width="match_parent"
@@ -30,12 +36,15 @@
         android:textStyle="bold"
         android:gravity="center"
         android:layout_height="wrap_content"/>
+    <!--End-txtView0-->
 
+    <!--btnCount-->
     <Button
         android:id="@+id/btnCount"
+        android:onClick="btnCountClick"
         android:layout_width="match_parent"
         android:text="COUNT"
         android:textSize="25dp"
         android:layout_height="wrap_content"/>
-
+    <!--End-btnCount-->
 </LinearLayout>
