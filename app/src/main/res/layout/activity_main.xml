@@ -21,6 +21,13 @@
         android:layout_width="match_parent"
         android:text="0"
         android:textSize="250dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="COUNT"
+        
         android:layout_height="wrap_content"/>
 
 </LinearLayout>
